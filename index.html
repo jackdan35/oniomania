@@ -1,80 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>ONIOMANIA SHOP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oniomania Shop | Importaciones USA - EUROPA - BRASIL y Personal Shopper</title>
 
+<section style="text-align:center;padding:40px">
+
+<h2>Servicio Personal Shopper</h2>
+
+<p>
+¿Buscas algo específico en Estados Unidos?
+Nosotros lo compramos por ti y lo enviamos a Bolivia.
+</p>
+
+<a class="button" href="https://wa.me/?text=Hola%20quiero%20usar%20el%20servicio%20Personal%20Shopper">
+Solicitar Personal Shopper
+</a>
+
+</section>  
 <style>
 
 body{
-font-family: Arial, sans-serif;
-background:#f5f5f5;
-text-align:center;
+font-family:Arial, sans-serif;
 margin:0;
+background:#f5f5f5;
 }
 
-.header{
+header{
 background:black;
 color:white;
+text-align:center;
+padding:30px;
+}
+
+.logo{
+width:200px;
+}
+
+.hero{
+text-align:center;
 padding:40px;
-font-size:32px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.product img{
+width:100%;
+border-radius:8px;
+}
+
+.price{
+font-size:20px;
+margin:10px 0;
 font-weight:bold;
 }
 
-.container{
-padding:40px;
-}
-
 .button{
-display:block;
-width:250px;
-margin:15px auto;
-padding:15px;
+display:inline-block;
+padding:10px 20px;
 background:black;
 color:white;
 text-decoration:none;
-border-radius:8px;
-font-size:18px;
+border-radius:6px;
 }
 
 .button:hover{
 background:#333;
 }
 
-.footer{
-margin-top:40px;
+footer{
+text-align:center;
+padding:30px;
 color:#777;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<img src="logo.jpg" style="width:250px;margin-top:40px;">
-  
-<div class="header">
-ONIOMANIA SHOP
+<header>
+<img src="logo.jpg" class="logo">
+<h1>ONIOMANIA SHOP</h1>
+<p>Importación de artículos originales desde Estados Unidos</p>
+</header>
+
+<section class="hero">
+<h2>Productos Destacados</h2>
+<p>Ropa · Electrónica · Importaciones</p>
+</section>
+
+<section class="products">
+
+<div class="product">
+<img src="https://via.placeholder.com/300">
+<h3>Producto 1</h3>
+<div class="price">$50</div>
+<a class="button" href="https://wa.me/?text=Hola%20quiero%20comprar%20Producto%201">Comprar</a>
 </div>
 
-<div class="container">
-
-<h2>Importación de artículos originales desde Estados Unidos</h2>
-
-<p>Personal Shopper</p>
-
-<a class="button" href="https://wa.me/+59167810110">Contactar por WhatsApp</a>
-
-<a class="button" href="https://tiktok.com">TikTok</a>
-
-<a class="button" href="https://instagram.com">Instagram</a>
-
+<div class="product">
+<img src="https://via.placeholder.com/300">
+<h3>Producto 2</h3>
+<div class="price">$120</div>
+<a class="button" href="https://wa.me/?text=Hola%20quiero%20comprar%20Producto%202">Comprar</a>
 </div>
 
-<div class="footer">
+<div class="product">
+<img src="https://via.placeholder.com/300">
+<h3>Producto 3</h3>
+<div class="price">$80</div>
+<a class="button" href="https://wa.me/?text=Hola%20quiero%20comprar%20Producto%203">Comprar</a>
+</div>
+
+</section>
+
+<footer>
 oniomania.com.bo
-</div>
+</footer>
 
 </body>
 </html>
